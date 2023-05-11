@@ -34,9 +34,9 @@ public class Main {
             output_2.flush();
             output_2.close();
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
-            System.out.println(e);
+            System.out.println(ex);
         }
     }
 }
